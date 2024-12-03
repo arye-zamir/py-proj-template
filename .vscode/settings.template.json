@@ -1,0 +1,32 @@
+{
+  "python.analysis.typeCheckingMode": "standard",
+  "python.analysis.autoImportCompletions": true,
+  "editor.rulers": [
+    {
+      "column": 140,
+      "color": "#374151"
+    }
+  ],
+  "editor.formatOnSave": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.organizeImports.ruff": "explicit"
+  },
+  "black-formatter.args": [
+    "--line-length",
+    "140",
+    "--config",
+    "${workspaceFolder}/pyproject.toml"
+  ],
+  "python.testing.unittestEnabled": false,
+  "pylint.args": ["--rcfile=${workspaceFolder}/.pylintrc"],
+  "python.testing.pytestEnabled": true,
+  "bandit.args": ["--configfile", "${workspaceFolder}/setup.cfg"],
+  "cSpell.words": ["dotenv"],
+  "pytest.command": "${workspaceFolder}/venv-aptio/bin/pytest"
+}

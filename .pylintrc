@@ -1,0 +1,21 @@
+[MASTER]
+ignore=*_tests
+init-hook='import sys; sys.path.append("./src")'
+extension-pkg-allow-list=pydantic
+exclude=.git,,.vscode,__pycache__,.pytest_cache,build,dist,docs,tests,venv-*
+disable=
+    C0114, # missing-module-docstring
+    C0115, # missing-class-docstring
+    C0116, # missing-function-docstring
+    C0301, # line-too-long
+ignore-patterns=.git,,.vscode,__pycache__,.pytest_cache,build,dist,docs,tests,venv-*
+
+[CLASSES]
+check-quote-consistency=true
+
+[BASIC]
+# Good variable names which should always be accepted, separated by a comma
+good-names=_,pk,id
+
+[FORMAT]
+max-line-length=140
