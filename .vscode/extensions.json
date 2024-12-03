@@ -1,0 +1,14 @@
+{
+    "recommendations": [
+        "nwgh.bandit",
+        "ms-python.black-formatter",
+        "irongeek.vscode-env",
+        "ms-python.isort",
+        "matangover.mypy",
+        "ms-python.vscode-pylance",
+        "ms-python.pylint",
+        "ms-python.python",
+        "ms-python.debugpy",
+        "esbenp.prettier-vscode"
+    ]
+}

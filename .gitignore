@@ -6,6 +6,7 @@ build/
 venv-*/
 .vscode/*
 !.vscode/*.template.json
+!.vscode/extensions.json
 artifacts
 .pytest_cache
 .coverage
